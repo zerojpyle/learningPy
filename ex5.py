@@ -16,3 +16,8 @@ print(f"His teeth are usually {my_teeth} depending on the coffee.")
 # this line is tricky, try to get it exactly right
 total = my_age + my_height + my_weight
 print(f"If I add {my_age}, {my_height}, and {my_weight} I get {total}.")
+
+my_height_centimeters = my_height * 2.54
+my_weight_kilograms = my_weight / 2.205
+print(f"My height in centimeters is {my_height_centimeters}.")
+print(f"My weight in kilograms is {round(my_weight_kilograms)}.")
