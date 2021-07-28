@@ -13,3 +13,11 @@ print(tabby_cat)
 print(persian_cat)
 print(backslash_cat)
 print(fat_cat)
+
+# Practice escape character "\b"
+test = "{}{}{}{}"
+print(test.format('test','\b','\b','?'))
+print(test.format('test','\b','','?'))
+print(test.format('test','1','2','3'))
+print(test.format('test','\b\b\b\b','?','?'))
+print('...^...^...^...^')
