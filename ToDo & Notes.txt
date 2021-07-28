@@ -1,0 +1,30 @@
+### To Do
+#
+#
+#
+### Notes
+#
+## GitHub
+# youtube.com/watch?v-0fKg7e37bQE
+# "<escape>:wq" will get you out of commit multi-line message screen
+#
+# 1. Commands
+#    a. git (shows all available commands)
+#    b. git clone "website" (Create local folder)
+#    c. git status (Check sync status of all files)
+#    d. git add <file> (add file to be staged for committing)
+#       i. use . or -A to add all files
+#    e. git commit -m "message" (Stage a file to push)
+#    f. git push ("push" all committed files to GitHub)
+#    g. git pull ("pull" all files from GitHub)
+#  2. Workflow
+#    a. Pull all files at the beginning of day/work
+#    b. Add commits for every incremental piece of work throughout day
+#    c. Push/Pull every few hours
+#  3. Merge conflicts
+#    a. when you make a change that conflicts, and try to pull, it will show
+#       conflicts in the file
+#    b. you need to make a manual edit, add, then type "git commit" with no -m
+#    c. git push
+#  4. Updating GitHub credentials on Mac
+#    a. https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain
