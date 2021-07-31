@@ -4,10 +4,7 @@ from sys import argv
 
 script, from_file, to_file = argv
 
+# I just learned that if a file is opened and read in one line,
+# it doesn't need to be closed!
 indata = open(from_file).read()
 outdata = open(to_file, 'w').write(indata)
-
-# not sure if this is the proper way to close a file previously opened
-# it may just open them again, then immediately close them
-open(from_file).close()
-open(to_file).close()
