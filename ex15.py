@@ -2,6 +2,7 @@
 from sys import argv
 
 # store arguments into two variables
+# filename for this excercise is "ex15_sample.txt"
 script, filename = argv
 
 # open file with name stored in "filename" into variable "txt"
@@ -21,3 +22,7 @@ txt_again = open(file_again)
 
 # read and then print the file object
 print(txt_again.read())
+
+# close both files
+txt.close()
+txt_again.close()
