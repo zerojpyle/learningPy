@@ -31,9 +31,9 @@ current_line = 1
 print_a_line(current_line, current_file)
 
 # increase current_line and then print it
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
 
 # increase current_line and then print it
-current_line = current_line + 1
+current_line += 1
 print_a_line(current_line, current_file)
