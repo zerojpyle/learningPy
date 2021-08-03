@@ -31,3 +31,8 @@ print("Here is a puzzle.")
 what = add(age, subtract(height, multiply(weight, divide(iq, 2))))
 
 print("That becomes: ", what, "Can you do it by hand?")
+
+# Practice formula
+# 24 + 34 / 100 - 1023
+answer = subtract(add(24, divide(34, 100)), 1023)
+print(f"And the answer is... {answer}")
