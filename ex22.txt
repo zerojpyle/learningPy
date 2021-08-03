@@ -1,0 +1,42 @@
+## What Do You Know So Far?
+#
+# print             prints text to output
+# ()                parenthesis; used to contain the arguments to a function
+# ""                used to define a string
+# ''                also used to define a string
+# #                 begins a comment (everything afterward is ignored)
+# + - * /           math operators
+# %                 percent / modulo (returns remainder of division)
+# >,<,>=,<=         greater/less than, greater/less than or equal to
+# {}                curly brackets; inserts variables into strings
+# f""               string formatter
+# round             function to round floating point numbers
+# True / False      boolean values
+# .format()         function to format stuff into strings. Operates on string object, can include things to add to string ("Example {}".format('code'))
+# end=' '           at end of print function, will prevent newline
+# \n                newline escape sequence
+# """               allows multiple lines of text to be included in a string
+# \"                quote escape sequence
+# \\                backslash escape sequence
+# \t                tab escape sequence
+# \'                apostrophe escape sequence
+# input()           get user input as a string, text used will display the text at input query
+# int()             converts a string to an integer
+# from a import b   loads package 'a' to get module 'b'
+# sys               module 'sys', a library of functions
+# argv              argument variable, allows variables to be imported when a script is run
+# open              opens a file as an object
+# read              reads a file object
+# pydoc             type pydoc "function" to learn about that function
+# trunctate         truncates (erases) a file
+# write             writes to a file
+# close             closes a file
+# w, r, a           used with open, write/read/append access
+# w+, r+, a+        similar, but allows simultaneous read/writing, etc.
+# len               returns the length of something (string, array)
+# exists            check if something exists
+# def               defines a function (closed with ":")
+# seek              seeks to a position in an opened file
+# +=                adds to a variable if a = 5, then a += 5 will make a = 10
+# readline          reads current line in a file
+# return            returns variables from functions
