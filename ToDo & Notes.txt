@@ -3,6 +3,7 @@
 # 1. Escape sequence flash cards
 # 2. Study "argv"
 # 3. Create function checklist (page 62)
+# 4. Learn += (a = 5; a += 5, print(a) will give "10")
 #
 ### Notes
 #
