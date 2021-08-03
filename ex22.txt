@@ -40,3 +40,4 @@
 # +=                adds to a variable if a = 5, then a += 5 will make a = 10
 # readline          reads current line in a file
 # return            returns variables from functions
+# float             formats a number as a floating point number
