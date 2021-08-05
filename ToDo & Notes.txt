@@ -5,6 +5,8 @@
 # 3. Create function checklist (page 62)
 # 4. Learn += (a = 5; a += 5, print(a) will give "10")
 # 5. Study ex22.txt
+# 6. """ function help line (after def line)
+# 7. from ex25 import * will bring the functions in directly (don't need to say ex25.function)
 #
 ### Notes
 #
