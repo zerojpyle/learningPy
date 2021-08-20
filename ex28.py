@@ -18,3 +18,12 @@ print("17. I think", not ("testing" == "testing" and "Zed" == "Cool Guy"), "is",
 print("18. I think", 1 == 1 and (not ("testing" == 1 or 1 == 0)), "is", True)
 print("19. I think", "chunky" == "bacon" and (not (3 == 4 or 3 == 3)), "is", False)
 print("20. I think", 3 == 3 and (not ("testing" == "testing" or "Python" == "Fun")), "is", False)
+
+# logical operators
+#   != "not equal"
+#   == "equal to"
+#   > "greater than"
+#   < "less than"
+#   >= "greater than or equal to"
+#   <= "less than or equal to"
+#   <> "not equal (deprecated)"
