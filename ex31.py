@@ -1,5 +1,5 @@
-print("""You enter a dark room with two doors.
-Do you go through door #1 or #2?""")
+print("""You enter a dark room with three doors.
+Do you go through door #1, #2, or #3?""")
 
 door = input("> ")
 
@@ -32,6 +32,22 @@ elif door == "2":
         print("Good job!")
     else:
         print("The instanity rots your eyes into a pool of muck.")
+        print("Good job!")
+
+elif door == "3":
+    print("A mirror of infinite darkness stands before you.")
+    print("1. Smash the mirror with an intense stare.")
+    print("2. Run through the mirror into the 7th dimension.")
+
+    mirror = input("> ")
+
+    if mirror == "1":
+        print("The mirror stares back and absorbs your soul.  You lose!")
+    elif mirror == "2":
+        print("The 7th dimension welcomes you warmly, but then")
+        print("you are stretched out of shape and you die.  You lose!")
+    else:
+        print("The blackness disappears and you are staring back at yourself.")
         print("Good job!")
 
 else:
