@@ -54,6 +54,22 @@ def cthulhu_room():
     else:
         cthulhu_room()
 
+def shiny_room():
+    print("You enter a shiny room.  The light is burning your eyes.")
+    print("Do you close your eyes or leave?")
+
+    choice = input("> ")
+    if "close eyes" in choice:
+        dead("You close your eyes, but you still burn alive!")
+        exit(0)
+    elif "leave" in choice:
+        print("You leave quickly and close the door.")
+        print("The blinding light is gone, and you can see again.")
+        start()
+    else:
+        dead("You don't act quickly enough.  You are burned alive!")
+        exit(0)
+
 
 def dead(why):
     print(why, "Good job!")
@@ -61,7 +77,7 @@ def dead(why):
 
 def start():
     print("You are in a dark room.")
-    print("There is a door to your right and left.")
+    print("There is a door to your right, middle, and left.")
     print("Which one do you take?")
 
     choice = input("> ")
@@ -70,6 +86,8 @@ def start():
         bear_room()
     elif choice == "right":
         cthulhu_room()
+    elif choice == "middle":
+        shiny_room()
     else:
         dead("You stumble around the room until you starve.")
 
