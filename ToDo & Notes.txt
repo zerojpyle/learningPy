@@ -34,3 +34,36 @@
 #    c. git push
 #  4. Updating GitHub credentials on Mac
 #    a. https://docs.github.com/en/get-started/getting-started-with-git/updating-credentials-from-the-macos-keychain
+#  5. "exit(0)" will exit with no error, "exit(1)" will exit w/error
+#
+# 2. Rules for loops and debugging
+#    a. Rules for loops
+#       i.   use a while-loop only to loop forever, and that means probably never
+#            This only applies to Python, other languages are different.
+#       ii.  Use a for-loop for all other kinds of looping, especially if there
+#            is a fixed or limited number of things to loop over.
+#    b. Tips for Debugging
+#       i.   Do not use a "debugger." A debugger is like doing a full-body scan on
+#            a sick person. You do not get any specific useful information, and
+#            you find a whole lot of information that doesn't help and is just
+#            confusing.
+#       ii.  The best way to debug a program is to use print to print out the
+#            values of variables at points in the program to see where they go
+#            wrong.
+#       iii. Make sure parts of your programs work as you work on them. Do not
+#            write massive files of code before you try to run them. Code a
+#            little, run a little, fix a little.
+# 3. Tips for creating software
+#    a. On paper/index cards, write a list of tasks you need to complete to
+#       finish the software. This is your to-do list.
+#    b. Pick the easiest thing you can do from your list.
+#    c. write out English comments in your source file as a guide for how you
+#       would accomplish this task in your code.
+#    d. Write some of the code under the English comments.
+#    e. Quickly run your script to see if that code worked.
+#    f. Keep working in a cycle:
+#        i. Write some code
+#        ii. Run the code to test it
+#        iii. Fix any errors until it works
+#    g. Cross this task off your list, then pick your next easiest task & repeat
+#  
