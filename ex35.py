@@ -4,17 +4,26 @@ def gold_room():
     print("This room is full of gold.  How much do you take?")
 
     choice = input("> ")
-    if "0" in choice or "1" in choice:
-        how_much = int(choice)
-    else:
-        dead("Man, learn to type a number.")
+    # if "0" in choice or "1" in choice:
+    #     how_much = int(choice)
+    # else:
+    #     dead("Man, learn to type a number.")
+    # This section tests the input, and if it's not a number or float
+    # it will kill you.
+    for num in choice:
+        try:
+            how_much = int(choice)
+        except:
+            try:
+                how_much = float(choice)
+            except:
+                dead("Man, learn to type a number.")
 
     if how_much < 50:
         print("Nice, you're not greedy, you win!")
         exit(0)
     else:
         dead("You greedy bastard!")
-
 
 def bear_room():
     print("There is a bear here.")
@@ -90,6 +99,5 @@ def start():
         shiny_room()
     else:
         dead("You stumble around the room until you starve.")
-
 
 start()
