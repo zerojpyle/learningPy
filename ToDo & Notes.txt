@@ -66,4 +66,5 @@
 #        ii. Run the code to test it
 #        iii. Fix any errors until it works
 #    g. Cross this task off your list, then pick your next easiest task & repeat
-#  
+# 4. Installing modules
+#    a. pip3 install --user numpy 
