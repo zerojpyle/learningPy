@@ -7,6 +7,9 @@ class Song(object):
         for line in self.lyrics:
             print(line)
 
+def space():
+    print("-" * 20)
+
 happy_bday = Song(["Happy birthday to you",
                    "I don't want to get sued",
                    "So I'll stop right there"])
@@ -14,6 +17,25 @@ happy_bday = Song(["Happy birthday to you",
 bulls_on_parade = Song(["They rally around tha family",
                         "With pockets full of shells"])
 
+death_w_dignity = Song(["I forgive you mother I can hear you",
+                        "and I long to be near you",
+                        "But every road leads to an end",
+                        "Yes every road leads to an end",
+                        "Your apparition passes through me",
+                        "in the willows and five red hens",
+                        "You'll never see us again",
+                        "You'll never see us again"])
+
+space()
+
 happy_bday.sing_me_a_song()
 
+space()
+
 bulls_on_parade.sing_me_a_song()
+
+space()
+
+death_w_dignity.sing_me_a_song()
+
+space()
